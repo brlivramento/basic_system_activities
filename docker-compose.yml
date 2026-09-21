@@ -1,0 +1,12 @@
+services:
+  app:
+    build: .
+    ports:
+      - "8000:80"
+    volumes:
+      - ./:/var/www/html
+      - symfony_vendor:/var/www/html/vendor
+    command: apache2-foreground
+
+volumes:
+  symfony_vendor:

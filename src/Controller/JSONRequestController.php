@@ -6,8 +6,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\Controller;
 
 class JSONRequestController extends Controller 
 {	
-	//const URL = 'https://my-json-server.typicode.com/brianlivramento/json_system_activities/';
-	const URL = 'http://localhost:3000/'; // - https://github.com/typicode/json-server
+	const URL = 'https://my-json-server.typicode.com/brianlivramento/json_system_activities/';
 	
 	public function getCategoriesAllAction()
 	{
